@@ -1,0 +1,37 @@
+.ToDoForm {
+    height: 50px;
+    /*width: 500px;*/
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background);
+
+}
+.ToDoForm input,
+.ToDoForm button {
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: 0;
+    border: none;
+}
+.ToDoForm input {
+    width: 500px;
+    padding-left: 12px;
+    background-color: var(--background);
+    color: var(--text-primary);
+}
+.ToDoForm input:focus-visible {
+    outline: none;
+}
+.ToDoForm button {
+    cursor: pointer;
+    /*background-color: var(--button);*/
+}
+.icon {
+    width: 32px;
+    cursor: pointer;
+    margin-right: 10px;
+}

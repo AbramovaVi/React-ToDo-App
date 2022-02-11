@@ -1,0 +1,23 @@
+:root {
+  /*--background: white;*/
+  --text-primary: black;
+  --text-secondary: royalblue;
+  --accent: purple;
+}
+
+[data-theme='light'] {
+  --text-primary: black;
+  --background: white;
+  --gradient-primary: linear-gradient(90deg, rgba(255,192,146,1) 0%, rgba(196,148,233,1) 100%);
+  --gradient-secondary: linear-gradient(90deg, rgba(174,238,178,1) 0%, rgba(148,221,233,1) 100%);
+  --button: #f9ade4;
+}
+[data-theme='dark'] {
+  --background: #25273A;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: blue;
+  --gradient-primary: linear-gradient(90deg, rgba(116,57,14,1) 0%, rgba(66,22,101,1) 100%);
+  --gradient-secondary: linear-gradient(90deg, rgba(14,116,89,1) 0%, rgba(22,43,101,1) 100%);
+  --button: #672374;
+}

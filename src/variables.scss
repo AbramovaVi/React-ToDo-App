@@ -1,8 +1,13 @@
 :root {
-  /*--background: white;*/
   --text-primary: black;
   --text-secondary: royalblue;
   --accent: purple;
+
+  --text-primary: black;
+  --background: white;
+  --gradient-primary: linear-gradient(90deg, rgba(255,192,146,1) 0%, rgba(196,148,233,1) 100%);
+  --gradient-secondary: linear-gradient(90deg, rgba(174,238,178,1) 0%, rgba(148,221,233,1) 100%);
+  --button: #f9ade4;
 }
 
 [data-theme='light'] {

@@ -1,6 +1,7 @@
 .ToDoForm {
     height: 50px;
-    /*width: 500px;*/
+    width: 90%;
+    max-width: 500px;
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 35px;
@@ -18,7 +19,8 @@
     border: none;
 }
 .ToDoForm input {
-    width: 500px;
+    width: 90%;
+    max-width: 500px;
     padding-left: 12px;
     background-color: var(--background);
     color: var(--text-primary);

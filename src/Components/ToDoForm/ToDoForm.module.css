@@ -30,7 +30,6 @@
 }
 .ToDoForm button {
     cursor: pointer;
-    /*background-color: var(--button);*/
 }
 .icon {
     width: 32px;
